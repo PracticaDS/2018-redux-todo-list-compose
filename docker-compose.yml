@@ -10,11 +10,11 @@ services:
       - 8080:8080
       
   front:
-    image: todo-list-frontend
+    image: unqpdes/todo-list-front
 
   back:
-    build: "../2018-redux-todo-list-backend/"
-    # image: todo-list-backend
+    # build: "../2018-redux-todo-list-backend/"
+    image: unqpdes/todo-list-back
     environment: 
       - MONGO_URL=mongodb://mongodb/pdes-todos
 
