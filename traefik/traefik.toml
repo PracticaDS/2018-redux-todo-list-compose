@@ -16,7 +16,7 @@ defaultEntryPoints = ["http"]
 [backends]
   [backends.backend1]
     [backends.backend1.servers.server1]
-    url = "http://front:3000"
+    url = "http://front:5000"
   [backends.backend2]
     [backends.backend2.servers.server1]
     url = "http://back:3001"
